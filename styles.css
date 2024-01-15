@@ -1,0 +1,130 @@
+body {
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+	background: #96C6D9 !important;
+}
+
+.icon-bar {
+  width: 100%;
+  background-color: #025373;
+  overflow: auto;
+}
+.icons {
+  width: 100%;
+  overflow: auto;
+}
+
+.icon-bar a, .icons a {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: #D8EBF2;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #023859;
+}
+
+.active {
+  background-color: #023859;
+}
+h1, h2, h3{
+  text-align: center;
+	font-family: "Amatic SC", cursive;
+	font-weight: 700;
+	font-size: 40px;
+}
+img{
+    float: left;
+    width:  145px;
+    height: 340px;
+    object-fit: cover;
+}
+.submit {
+	background-color: #0077b7;
+	border-radius: 2.5px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	font-family: "Amatic SC", cursive;
+	font-weight: 400;
+	font-size: 25px;
+}
+.submit:hover {
+	background-color: #086598;
+}
+button.remove {
+	background-color: #f44336;
+	border-radius: 2.5px;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	color: #fff;
+	margin-left: 10px;
+	margin-top: 15px;
+	font-family: "Amatic SC", cursive;
+	font-weight: 400;
+	font-size: 25px;
+	width: 100%;
+}
+button.remove:hover {
+	background-color: #eb291b;
+}
+label, footer {
+	font-family: "Amatic SC", cursive;
+	font-weight: 400;
+	font-size: 25px;
+}
+footer p {
+	float: left;
+	text-align: left;
+}
+.icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.footer-logo {
+	width: 100px;
+	height: 100px;
+	padding: 10px 3px;
+}
+.card-title {
+	font-weight: 300;
+}
+ul.messages {
+	list-style: none;
+	padding: 0;
+}
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+	outline: none;
+	border: 1px solid #555;
+}
+#connect{
+	padding: 60px;
+}
+#connect_form{
+	width: 500px;
+}
